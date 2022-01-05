@@ -6,7 +6,7 @@
 /*   By: mkurosaw <mkurosaw@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/04 22:52:15 by mkurosaw          #+#    #+#             */
-/*   Updated: 2022/01/05 19:51:49 by mkurosaw         ###   ########.fr       */
+/*   Updated: 2022/01/05 21:15:27 by mkurosaw         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,10 +50,10 @@ void	ft_print_comb(void)
 	while (i <= 7)
 	{
 		j = 1;
-		while (i <= 8)
+		while (j <= 8)
 		{
 			k = 2;
-			while (i <= 9)
+			while (k <= 9)
 			{
 				if (i == 7 && j == 8 && k == 9)
 					ft_print_result(i, j, k, 0);
